@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../css/signingUp-style.css">
+
+    <title>Criar uma conta - Barbearia Lussani</title>
+    <link rel="icon" type="imagem/png" href="../imagens/favicon.png" />
+
+</head>
+<body> 
+
+  <header class="fixed-top"><!-- inicio Cabecalho -->
+    <nav class="navbar navbar-expand-md navbar-light navbar-transparente">
+      <div class="container">            
+        <a href="../index.html" class="navbar-brand">
+          <img src="../imagens/logoBranco.svg" width="142">
+        </a>
+    
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fas fa-bars text-white"></i>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto text-white">
+            <li class="nav-item">
+              <a href="" class="nav-link">Baixar</a>
+            </li>  
+            <li class="nav-item divisor"></li>  
+            <li class="nav-item">
+              <a href="signingUp.html" class="nav-link">Cadastrar-se</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link">Entrar</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header><!--/fim Cabecalho -->
+  
+  <main>
+    <div id="box">
+      <form action="myAccount.html" class="row g-3 needs-validation" novalidate>
+        <div class="col-sm-6">
+          <label class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="Input" required>
+            <div class="invalid-feedback">
+              Você não digitou o seu nome!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="Input" required>
+            <div class="invalid-feedback">
+              Você não digitou o seu email!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label class="form-label">Senha</label>
+          <input type="password" class="form-control" id="Input" required>
+          <div class="invalid-feedback">
+            Você não digitou a sua senha!
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label class="form-label">Confirmar senha</label>
+            <input type="password" class="form-control" id="Input" required>
+            <div class="invalid-feedback">
+              Você não confirmou a sua senha!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label class="form-label">Gênero</label>
+            <select class="form-select" id="Input" required>
+              <option selected disabled value="">Qual é o seu gênero?</option>
+              <option value="1">Masculino</option>
+              <option value="2">Feminino</option>
+          </select>
+          <div class="invalid-feedback">
+            Você não digitou o seu gênero!
+          </div>
+        </div>        
+
+        <div class="col-sm-6">
+          <label class="form-label">Data de nascimento</label>
+          <input type="date" class="form-control" id="Input" required>
+          <div class="invalid-feedback">
+            Você não digitou a sua data de nascimento!
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+          <label class="form-label">DDD</label>
+          <input type="text" class="form-control" id="Input" minlength="2" maxlength="2" required>
+          <div class="invalid-feedback">
+            Digite o DDD do seu celular!
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <label class="form-label">Número do celular</label>
+          <input type="text" class="form-control" id="Input" minlength="9" maxlength="9" required>
+          <div class="invalid-feedback">
+            Você não digitou o seu número!
+          </div>
+        </div>
+
+        <div class="col-sm">
+          <label class="form-label">Cidade</label>
+           <select class="form-select" id="Input" required>
+              <option selected disabled value="">Em qual cidade você mora?</option>
+              <option value="1">CANOAS</option>
+              <option value="2">PORTO ALEGRE</option>
+              <option value="3">NOVO HAMBURGO</option>
+              <option value="4">ESTEIO</option>
+              <option value="5">SAO LEOPOLDO</option>
+              <option value="6">VIAMÃO</option>
+              <option value="7">GRAVATAÍ</option>
+              <option value="8">CACHOEIRINHA</option>
+              <option value="9">SAPUCAIA DO SUL</option>
+              <option value="10">ALVORADA</option>
+            </select>
+            <div class="invalid-feedback">
+              Você não selecionou uma cidade!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <label class="form-label">CEP</label>
+            <input type="text" class="form-control" id="Input" minlength="8" maxlength="8" required>
+            <div class="invalid-feedback">
+              Você não digitou o seu CEP!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <label class="form-label">Bairro</label>
+            <input type="text" class="form-control" id="Input" required>
+            <div class="invalid-feedback">
+              Você não digitou o seu bairro!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <label class="form-label">Rua</label>
+            <input type="text" class="form-control" id="Input" required>
+            <div class="invalid-feedback">
+              Você não digitou a sua rua!
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <label class="form-label">Complemento</label>
+            <input type="text" class="form-control" id="Input">
+        </div>
+
+        <div id="spacing">
+          <button class="w-100 btn btn-primary btn-lg" id="btn-criar" type="submit">CADASTRAR</button>
+        </div>
+      </form>
+
+      <div style="margin-left: 35%;">Já possui conta? <a style="text-decoration:underline; color: black;" href="login.html">Clique aqui</a>
+      </div>
+      
+    </div>    
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-2">
+            <h4>company</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Trabalhe Conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>comunidades</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Clientes</a></li>
+              <li><a href="">Funcionários</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>links uteis</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Fale Conosco</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href="http://facebook.com"><img src="../imagens/facebook.png"></a>
+              </li>
+              <li>
+                <a href="http://twitter.com"><img src="../imagens/twitter.png"></a>
+              </li>
+              <li>
+                <a href="http://instagram.com"><img src="../imagens/instagram.png"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>  
+        
+  </main>
+  <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      (function () {
+        'use strict'
+      
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+      
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+      
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()</script>  
+</body>
+</html>

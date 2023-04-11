@@ -1,0 +1,170 @@
+body{
+    background: url("../imagens/fundoaccount.png");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #daa520;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+#nav-principal {
+    margin-left: 750px;
+
+}
+
+#box {
+    position: relative;
+    margin: 15% 50% 10%;
+    transform: translate(-50%,0%);
+    width: 1100px;
+    height: 1125px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 75px;
+    
+}
+
+#perfil {
+    width: 250px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+h1 {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    white-space: nowrap;
+    margin-left: 45%;
+    transform: translate(-50%);
+}
+
+h2 {
+    margin: 7% 25%;
+    position: absolute;
+}
+
+p {
+    margin: 12% 25%;
+    position: absolute;
+}
+
+#bloco {
+    border: solid 2px;
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    border-color:#808080;
+    border-radius: 15px;
+}
+
+#bloco-titulo {
+    position: absolute;
+    font-weight: bolder;
+    margin: 2.5% 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    white-space: nowrap;
+    
+}
+
+#bloco-texto {
+    position: absolute;
+    font-size: 16.5px;
+}
+
+#resposta-bloco {
+    width: 160px;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 7.5px;
+    margin-left: 50%;
+    position: absolute;
+    border-color:black;
+    outline:0;
+    box-shadow:0 0 0 .25rem rgba(0,0,0,.25)
+}
+
+input {
+    outline: 0;
+    background-color: transparent;
+    border:none;
+    margin: 1px 5px;
+}
+
+#botao-confirmar {
+    margin: 50% 50%;
+    transform: translate(-50%,0%);
+    border-radius: 15px;
+    background-color: black;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    color: white;
+    border: solid 1px;
+    border-color: black;
+    outline: none;
+    font-size: 17px;
+}
+
+#botao-confirmar:hover {
+    transition: 0.25s;
+    background: #daa520;
+	color: black;
+}
+
+footer {
+	background: #000;
+	padding: 10px 0 20px 0;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+a{
+  text-decoration: none;  
+}
